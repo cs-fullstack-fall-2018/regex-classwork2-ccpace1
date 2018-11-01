@@ -15,7 +15,7 @@ Graduate Colleges	CUNY School of Law	http://law.cuny.edu	2 Court Square	Long Isl
 Graduate Colleges	The Graduate School and University Center	http://gc.cuny.edu	365 5th Avenue	New York	NY	10016-4309
 Senior Colleges	Hunter College	http://hunter.cuny.edu	695 Park Avenue	New York	NY	10065-5024
 
-```
+My Answer is: /\d{5}(-\d{4})?/gm```
 
 ### 2. BONUS Binary Challenge
 In honor of the binary number work you've been doing with Kenn, see if you can knock this one out:
@@ -36,3 +36,4 @@ TEST DATA:
 01101010
 01101011
 ```
+My answer is /^0.{0,}0$/gm
